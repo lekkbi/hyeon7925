@@ -134,7 +134,7 @@
 												<div class="form_field">
 													<div class="form_item">
 														<label for="" class="i_label" style="position: absolute;"></label>
-														<input type="text" name="email" id="email1" class="i_text"
+														<input type="text" name="email" id="email" class="i_text"
 																maxlength="24">
 													</div>
 												</div>
@@ -142,13 +142,13 @@
 												<div class="form_field">
 													<div class="form_item">
 														<label for="" class="i_label" style="position: absolute;"></label>
-														<input type="text" name="email1" id="email" class="i_text"
+														<input type="text" name="email1" id="email1" class="i_text"
 																maxlength="24">
 													</div>
 												</div>
 												<div class="form_field">
 													<div class="select-type2 sel_box">
-														<select id="email3" name="email3"
+														<select id="email2" name="email2"
 																onChange="changeEmail(this.value);">
 															<option value="naver.com">네이버</option>
 															<option value="hanmail.net">한메일</option>
