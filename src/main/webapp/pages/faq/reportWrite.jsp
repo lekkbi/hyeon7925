@@ -134,7 +134,7 @@
 												<div class="form_field">
 													<div class="form_item">
 														<label for="" class="i_label" style="position: absolute;"></label>
-														<input type="text" name="email" id="email" class="i_text"
+														<input type="text" name="email0" id="email0" class="i_text"
 																maxlength="24">
 													</div>
 												</div>
@@ -308,7 +308,7 @@ function doReset(){
 }
 
 function proc(){
-	  $('#email').val($('#email1').val()+"@"+$('#email2').val());
+	  $('#email0').val($('#email1').val()+"@"+$('#email2').val());
 	  $('#qnaForm').attr("action", "reportWrite.do");
 	  $('#qnaForm').submit();
 	}
